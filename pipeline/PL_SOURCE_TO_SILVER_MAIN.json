@@ -114,7 +114,7 @@
 							}
 						},
 						{
-							"name": "Insert In Progress Status Fails",
+							"name": "Update Failed Status",
 							"description": "",
 							"type": "Script",
 							"dependsOn": [
