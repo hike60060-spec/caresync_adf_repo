@@ -1,0 +1,12 @@
+{
+	"name": "caresync-project-azure-data-factory",
+	"properties": {
+		"globalParameters": {
+			"email_receipient": {
+				"type": "string",
+				"value": "akhilesh.lakra@gmail.com"
+			}
+		}
+	},
+	"location": "centralindia"
+}
