@@ -153,7 +153,14 @@
 						{
 							"name": "Update Pipeline as Failed",
 							"type": "Fail",
-							"dependsOn": [],
+							"dependsOn": [
+								{
+									"activity": "Ingest from Source to Silver",
+									"dependencyConditions": [
+										"Failed"
+									]
+								}
+							],
 							"userProperties": [],
 							"typeProperties": {
 								"message": "Inner Pipeline FAILED",
